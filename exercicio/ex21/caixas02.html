@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 1px 1px 4px #00000061;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: brown;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+
+        }
+        article{
+            background-color: darkgray;
+        }
+        article > aside{
+            background-color: bisque;
+        }
+        nav{
+            background-color: aquamarine;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+        }
+        nav > a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+            margin-right: 50px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+        footer > p{
+            margin: 0 px;
+        }
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: gold;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Cu</a>
+            <a href="#">Cu</a>
+            <a href="#">Cu</a>
+            <a href="#">Cu</a>
+            <a href="#">Cu</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <h2>Buceta</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <aside>
+                    <h2>Vianei</h2>
+                    <p>Artigo escrito pelo Vianei</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo Vianei Gostosão</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
