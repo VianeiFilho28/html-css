@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+/*HEADER*/
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+header > h1{
+    font-size: 8vw;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+    
+}
+
+nav{
+    padding-bottom: 3%;
+    font-size: 1.3em;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+/*MAIN*/
+section{
+    margin-bottom: 100px;
+}
+
+.fundoBranco{
+    padding: 3%;
+    padding-left: 40px;
+    font-size: 4vw;
+    line-height: 1.8em;
+}
+.textoImg{
+    font-size: 4vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    max-width: fit-content;
+    padding: 0.5%;
+    line-height: 1.8em;
+}
+.imagemFlor{
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 3%;
+    padding-left: 40px;
+
+    background-position: right center;
+
+
+}
+.imagemLivro{
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    padding: 3%;
+    padding-left: 40px;
+
+    background-size: cover;
+    background-position: right center;
+
+
+}
+
+/*FOOTER*/
+footer{
+    padding: 0.7%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.3vw;
+}
+footer > p> a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer > p> a:hover{
+    text-decoration: underline;
+}
