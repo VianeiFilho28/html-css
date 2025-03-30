@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Sriracha", cursive;
+}
+
+
+
 *{
     margin: 0;
 }
@@ -7,18 +18,22 @@ header{
     background-color: black;
     color: white;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 header > h1{
-    font-size: 8vw;
+    font-size: 10vw;
     padding-top: 3%;
-    padding-bottom: 1.5%;
+    padding-bottom: 1%;
+    font-family: var(--fonte2);
+    font-variant: small-caps;
     
 }
 
 nav{
     padding-bottom: 3%;
-    font-size: 1.3em;
+    font-size: 1em;
+    font-family: var(--fonte1) ;
+
 }
 
 nav > a{
@@ -35,21 +50,22 @@ nav > a:hover{
 /*MAIN*/
 section{
     margin-bottom: 100px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    line-height: 2em;
+
+
 }
 
 .fundoBranco{
     padding: 3%;
     padding-left: 40px;
-    font-size: 4vw;
-    line-height: 1.8em;
 }
 .textoImg{
-    font-size: 4vw;
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
     max-width: fit-content;
     padding: 0.5%;
-    line-height: 1.8em;
 }
 .imagemFlor{
     background-image: url(imagens/background001.jpg);
@@ -80,7 +96,8 @@ footer{
     text-align: center;
     background-color: black;
     color: white;
-    font-size: 1.3vw;
+    font-size: 1vw;
+    font-family: var(--fonte1);
 }
 footer > p> a{
     color: white;
