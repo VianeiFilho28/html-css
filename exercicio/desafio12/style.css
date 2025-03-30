@@ -54,8 +54,12 @@ section{
     font-family: var(--fonte3);
     font-size: 3.5vw;
     line-height: 2em;
-
-
+    text-shadow: 1px 1px 0px black;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    padding: 3%;
+    padding-left: 40px;
 }
 
 .fundoBranco{
@@ -70,25 +74,9 @@ section{
 }
 .imagemFlor{
     background-image: url(imagens/background001.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    padding: 3%;
-    padding-left: 40px;
-
-    background-position: right center;
-
-
 }
 .imagemLivro{
     background-image: url(imagens/background002.jpg);
-    background-attachment: fixed;
-    padding: 3%;
-    padding-left: 40px;
-
-    background-size: cover;
-    background-position: right center;
-
-
 }
 
 /*FOOTER*/
